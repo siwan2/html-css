@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      .content {
+        display: flex;
+      }
+      .content nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        position: absolute;
+        width: 290px;
+        height: 1024px;
+        left: 0px;
+        top: 1px;
+        border: 1px solid #1b2559;
+        background: #ffffff;
+      }
+      .Main {
+        position: static;
+        width: 214px;
+        height: 45px;
+        left: 0px;
+        top: 0px;
+
+        /* Primary/Purple Blue/500 - Primary */
+
+        background: #4318ff;
+        border-radius: 5px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        /* identical to box height, or 175% */
+        letter-spacing: -0.02em;
+        /* Secondary/ Primary White */
+        color: #ffffff;
+        margin-top: 4rem;
+      }
+      input {
+        /* Frame 16 */
+
+        position: static;
+        width: 214px;
+        height: 45px;
+        left: 0px;
+        top: 0px;
+        margin-top: 4rem;
+        /* Primary/Purple Blue/500 - Primary */
+        border-radius: 5px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        /* identical to box height, or 175% */
+        letter-spacing: -0.02em;
+        /* Secondary/ Primary White */
+        color: #ffffff;
+      }
+      main h1 {
+        position: absolute;
+        width: 190px;
+        height: 32px;
+        left: 343px;
+        top: 58px;
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 32px;
+        /* identical to box height, or 89% */
+
+        text-align: center;
+        letter-spacing: -0.02em;
+
+        color: #000000;
+      }
+      main .my_graph {
+        position: absolute;
+        width: 1024px;
+        height: 307px;
+        left: 343px;
+        top: 119px;
+        border: #1b2559 solid 1px;
+        background: #ffffff;
+        border-radius: 20px;
+      }
+      .total_point text1 {
+        position: absolute;
+        width: 114px;
+        height: 22px;
+        left: 28px;
+        top: 23px;
+
+        /* Body Text/ Small/ Medium */
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        letter-spacing: -0.02em;
+
+        color: #ffffff;
+      }
+      .total_point text2 {
+        position: absolute;
+        width: 200px;
+        height: 42px;
+        left: 28px;
+        top: 48px;
+
+        /* Display Text/Small/ Bold */
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        /* identical to box height, or 124% */
+
+        letter-spacing: -0.02em;
+
+        color: #ffffff;
+      }
+      .total_point .rest_point {
+        position: absolute;
+        left: 65.93%;
+        right: 2.9%;
+        top: 61.27%;
+        bottom: 18.14%;
+
+        /* Display Text/Small/ Bold */
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 42px;
+        /* identical to box height, or 76% */
+
+        letter-spacing: -0.02em;
+
+        color: #ffffff;
+      }
+      .part {
+        display: flex;
+        border: 1px solid black;
+        position: absolute;
+        width: 1025px;
+        height: 20px;
+        left: 339px;
+        top: 468px;
+      }
+      .part .all {
+        position: absolute;
+        width: 71px;
+        height: 30px;
+        left: 339px;
+        top: 468px;
+        color: black;
+        background: #ffffff;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+      .part .send {
+        position: absolute;
+        width: 71px;
+        height: 30px;
+        left: 427px;
+        top: 469px;
+
+        border-radius: 10px;
+        background: #4318ff;
+      }
+      .part .receive {
+        position: absolute;
+        width: 71px;
+        height: 30px;
+        left: 513px;
+        top: 469px;
+        color: black;
+        background: #ffffff;
+        border-radius: 10px;
+      }
+      .list_box {
+        border: 1px solid #1b2559;
+        position: absolute;
+        width: 1025px;
+        height: 458px;
+        left: 337px;
+        top: 518px;
+
+        background: #ffffff;
+        border-radius: 20px;
+      }
+      .list_box {
+        border: 1px solid #1b2559;
+        position: absolute;
+        width: 1025px;
+        height: 458px;
+        left: 337px;
+        top: 518px;
+
+        background: #ffffff;
+        border-radius: 20px;
+      }
+      .list_box text1 {
+        position: absolute;
+        width: 114px;
+        height: 22px;
+
+        /* Body Text/ Small/ Medium */
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        letter-spacing: -0.02em;
+
+        /* Secondary/Grey/600 */
+
+        color: #a3aed0;
+      }
+      .list_box text2 {
+        position: absolute;
+        width: 162px;
+        height: 42px;
+        left: 0px;
+        top: 0px;
+
+        /* Display Text/Small/ Bold */
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        /* identical to box height, or 124% */
+
+        letter-spacing: -0.02em;
+
+        /* Secondary/Dark Grey/900 */
+
+        color: #1b2559;
+      }
+      .list_box button {
+        position: absolute;
+        width: 50px;
+        height: 42px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 42px;
+        /* identical to box height, or 300% */
+
+        letter-spacing: -0.02em;
+      }
+      .trax_box {
+        position: absolute;
+        width: 350px;
+        height: 345px;
+        left: 692px;
+        top: 262px;
+        border: 1px solid #1b2559;
+        /* Secondary/ Primary White */
+
+        background: #ffffff;
+        border-radius: 20px;
+      }
+      .ratio_box {
+        position: absolute;
+        width: 350px;
+        height: 345px;
+        left: 322px;
+        top: 646px;
+        border: 1px solid #1b2559;
+        /* Secondary/ Primary White */
+
+        background: #ffffff;
+        border-radius: 20px;
+      }
+      aside {
+        position: absolute;
+        width: 350px;
+        height: 850px;
+        left: 1068px;
+        top: 118px;
+
+        /* Secondary/ Primary White */
+        border: 1px solid black;
+        background: #ffffff;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <nav>
+        <a href="index.html">
+          <input type="button" class="dash" value="대시보드" />
+        </a>
+
+        <a href="my_trans.html">
+          <input type="button" class="Main" value="My 거래내역" />
+        </a>
+        <a href="all_trans.html">
+          <input type="button" class="All" value="전체 거래내역" />
+        </a>
+        <a href="index.html">
+          <input type="button" class="Set" value="설정" />
+        </a>
+      </nav>
+      <main>
+        <h1>My 거래내역</h1>
+        <div class="my_graph">
+          <text1>7,288 point</text1>
+          <text2>총 보유포인트</text2>
+          <div class="rest_point">1,000 point</div>
+        </div>
+        <div class="part">
+          <a href="my_trans.html">
+            <input type="button" class="all" value="All" />
+          </a>
+          <a href="my_trans_send.html">
+            <input type="button" class="send" value="보낸 내역" />
+          </a>
+          <a href="my_trans_receive.html">
+            <input type="button" class="receive" value="받은 내역" />
+          </a>
+        </div>
+        <div class="list_box">
+          <text1>포인트 사용 및 획득</text1>
+          <text2>포인트 현황</text2>
+          <button onclick="">+ 더보기</button>
+          <div class="point_list"></div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
