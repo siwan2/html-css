@@ -1,0 +1,215 @@
+.content {
+  display: flex;
+}
+.content nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 290px;
+  height: 1024px;
+  left: 0px;
+  top: 1px;
+  border: 1px solid #1b2559;
+  background: #ffffff;
+}
+.Main {
+  position: static;
+  width: 214px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+
+  /* Primary/Purple Blue/500 - Primary */
+
+  background: #4318ff;
+  border-radius: 5px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  letter-spacing: -0.02em;
+  /* Secondary/ Primary White */
+  color: #ffffff;
+  margin-top: 4rem;
+}
+input {
+  /* Frame 16 */
+
+  position: static;
+  width: 214px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  margin-top: 4rem;
+  /* Primary/Purple Blue/500 - Primary */
+  border-radius: 5px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  letter-spacing: -0.02em;
+  /* Secondary/ Primary White */
+  color: #ffffff;
+}
+main h1 {
+  position: absolute;
+  width: 300px;
+  height: 32px;
+  left: 346px;
+  top: 58px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 32px;
+  /* identical to box height, or 89% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+main .latest_blocks {
+  border: 1px solid #1b2559;
+  position: absolute;
+  width: 1037px;
+  height: 366px;
+  left: 346px;
+  top: 166px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+.latest_blocks text1 {
+  position: absolute;
+  width: 114px;
+  height: 22px;
+  left: 28px;
+  top: 23px;
+
+  /* Body Text/ Small/ Medium */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.latest_blocks text2 {
+  position: absolute;
+  width: 200px;
+  height: 42px;
+  left: 28px;
+  top: 48px;
+
+  /* Display Text/Small/ Bold */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  /* identical to box height, or 124% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.latest_blocks .rest_point {
+  position: absolute;
+  left: 65.93%;
+  right: 2.9%;
+  top: 61.27%;
+  bottom: 18.14%;
+
+  /* Display Text/Small/ Bold */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 42px;
+  /* identical to box height, or 76% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.latest_tranx {
+  border: 1px solid #1b2559;
+  position: absolute;
+  width: 1037px;
+  height: 366px;
+  left: 346px;
+  top: 578px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+.latest_tranx text1 {
+  position: absolute;
+  width: 114px;
+  height: 22px;
+
+  /* Body Text/ Small/ Medium */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: -0.02em;
+
+  /* Secondary/Grey/600 */
+
+  color: #a3aed0;
+}
+.latest_tranx text2 {
+  position: absolute;
+  width: 162px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+
+  /* Display Text/Small/ Bold */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  /* identical to box height, or 124% */
+
+  letter-spacing: -0.02em;
+
+  /* Secondary/Dark Grey/900 */
+
+  color: #1b2559;
+}
+.latest_tranx button {
+  position: absolute;
+  width: 50px;
+  height: 42px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 42px;
+  /* identical to box height, or 300% */
+
+  letter-spacing: -0.02em;
+}

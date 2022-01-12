@@ -1,0 +1,236 @@
+.content {
+  display: flex;
+}
+.content nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 290px;
+  height: 1024px;
+  left: 0px;
+  top: 1px;
+  border: 1px solid #1b2559;
+  background: #ffffff;
+}
+.Main {
+  position: static;
+  width: 214px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+
+  /* Primary/Purple Blue/500 - Primary */
+
+  background: #4318ff;
+  border-radius: 5px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  letter-spacing: -0.02em;
+  /* Secondary/ Primary White */
+  color: #ffffff;
+  margin-top: 5rem;
+}
+input {
+  /* Frame 16 */
+
+  position: static;
+  width: 214px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  margin-bottom: 4rem;
+  /* Primary/Purple Blue/500 - Primary */
+  border-radius: 5px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  letter-spacing: -0.02em;
+  /* Secondary/ Primary White */
+  color: #ffffff;
+}
+main .total_point {
+  border: 1px solid #1b2559;
+  position: absolute;
+  width: 725px;
+  height: 204px;
+  left: 317px;
+  top: 37px;
+  background: linear-gradient(180deg, #522cfb 0%, rgba(134, 140, 255, 0) 100%),
+    #868cff;
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.total_point text1 {
+  position: absolute;
+  width: 114px;
+  height: 22px;
+  left: 28px;
+  top: 23px;
+
+  /* Body Text/ Small/ Medium */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.total_point text2 {
+  position: absolute;
+  width: 300px;
+  height: 42px;
+  left: 28px;
+  top: 48px;
+
+  /* Display Text/Small/ Bold */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  /* identical to box height, or 124% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.total_point .rest_point {
+  position: absolute;
+  left: 65.93%;
+  right: 2.9%;
+  top: 61.27%;
+  bottom: 18.14%;
+
+  /* Display Text/Small/ Bold */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 42px;
+  /* identical to box height, or 76% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.list_box {
+  border: 1px solid #1b2559;
+  position: absolute;
+  width: 355px;
+  height: 345px;
+  left: 317px;
+  top: 262px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+text3 {
+  position: absolute;
+  width: 150px;
+  height: 22px;
+
+  /* Body Text/ Small/ Medium */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  top: 10px;
+  left: 20px;
+  letter-spacing: -0.02em;
+
+  /* Secondary/Grey/600 */
+
+  color: #a3aed0;
+}
+text4 {
+  position: absolute;
+  width: 200px;
+  height: 42px;
+  top: 30px;
+  left: 20px;
+
+  /* Display Text/Small/ Bold */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  /* identical to box height, or 124% */
+
+  letter-spacing: -0.02em;
+
+  /* Secondary/Dark Grey/900 */
+
+  color: #1b2559;
+}
+.list_box button {
+  position: absolute;
+  width: 100px;
+  height: 42px;
+  top: 20px;
+  left: 220px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 42px;
+  /* identical to box height, or 300% */
+
+  letter-spacing: -0.02em;
+}
+.trax_box {
+  position: absolute;
+  width: 350px;
+  height: 345px;
+  left: 692px;
+  top: 262px;
+  border: 1px solid #1b2559;
+  /* Secondary/ Primary White */
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+.ratio_box {
+  position: absolute;
+  width: 350px;
+  height: 345px;
+  left: 322px;
+  top: 646px;
+  border: 1px solid #1b2559;
+  /* Secondary/ Primary White */
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+aside {
+  position: absolute;
+  width: 350px;
+  height: 850px;
+  left: 1068px;
+  top: 118px;
+
+  /* Secondary/ Primary White */
+  border: 1px solid black;
+  background: #ffffff;
+  border-radius: 20px;
+}
